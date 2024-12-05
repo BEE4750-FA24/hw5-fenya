@@ -2,7 +2,7 @@
 
 julia_version = "1.10.4"
 manifest_format = "2.0"
-project_hash = "f52f46cb928a467a9ed619b1e375ae20682cf33b"
+project_hash = "1a605abda723d0817138673b3f93b925f7720afc"
 
 [[deps.AbstractTrees]]
 git-tree-sha1 = "2d9c9a55f9c93e8887ad391fbae72f8ef55e1177"
@@ -42,6 +42,12 @@ deps = ["LinearAlgebra", "Random", "SparseArrays", "WoodburyMatrices"]
 git-tree-sha1 = "01b8ccb13d68535d73d2b0c23e39bd23155fb712"
 uuid = "13072b0f-2c55-5437-9ae7-d433b7a33950"
 version = "1.1.0"
+
+[[deps.BARON]]
+deps = ["MathOptInterface"]
+git-tree-sha1 = "c66da41dfa7c825e7dd1fa56d905037e822c04f6"
+uuid = "2e2ca445-9e14-5b13-8677-4410f177f82b"
+version = "0.8.5"
 
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
